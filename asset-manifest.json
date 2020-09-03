@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/REACT-hooks-crud-firebase/static/css/main.36737555.chunk.css",
+    "main.js": "/REACT-hooks-crud-firebase/static/js/main.1fa1feb0.chunk.js",
+    "main.js.map": "/REACT-hooks-crud-firebase/static/js/main.1fa1feb0.chunk.js.map",
+    "runtime-main.js": "/REACT-hooks-crud-firebase/static/js/runtime-main.677defe7.js",
+    "runtime-main.js.map": "/REACT-hooks-crud-firebase/static/js/runtime-main.677defe7.js.map",
+    "static/js/2.21fee720.chunk.js": "/REACT-hooks-crud-firebase/static/js/2.21fee720.chunk.js",
+    "static/js/2.21fee720.chunk.js.map": "/REACT-hooks-crud-firebase/static/js/2.21fee720.chunk.js.map",
+    "index.html": "/REACT-hooks-crud-firebase/index.html",
+    "precache-manifest.698ebd309705b6f6a5c000112bc57e52.js": "/REACT-hooks-crud-firebase/precache-manifest.698ebd309705b6f6a5c000112bc57e52.js",
+    "service-worker.js": "/REACT-hooks-crud-firebase/service-worker.js",
+    "static/css/main.36737555.chunk.css.map": "/REACT-hooks-crud-firebase/static/css/main.36737555.chunk.css.map",
+    "static/js/2.21fee720.chunk.js.LICENSE.txt": "/REACT-hooks-crud-firebase/static/js/2.21fee720.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.677defe7.js",
+    "static/js/2.21fee720.chunk.js",
+    "static/css/main.36737555.chunk.css",
+    "static/js/main.1fa1feb0.chunk.js"
+  ]
+}
