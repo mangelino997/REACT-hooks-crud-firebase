@@ -18,7 +18,6 @@ const Create = (props) => {
             const db = firebase.firestore()
             const res = await db.collection('tareas').add(data)
             data.id = res.id
-            console.log(data)
             props.addUser(data)
         } catch (error) {
             console.log(error)
@@ -78,7 +77,7 @@ const Create = (props) => {
                 </div>
                 <button
                     type="submit"
-                    className="btn btn-success">
+                    className="btn btn-send">
                     Agregar
                                     </button>
             </form>

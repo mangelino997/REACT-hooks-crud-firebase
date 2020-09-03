@@ -18,7 +18,6 @@ const Update = (props) => {
 
     const onSubmit = (data, e) => {
         e.preventDefault()
-        console.log(data)
         data.id = user.id
         update_firebase(data)
         e.target.reset()
@@ -94,8 +93,8 @@ const Update = (props) => {
                         </div>
                         <button
                             type="submit"
-                            className="btn btn-success">
-                            Editar
+                            className="btn btn-send">
+                            Actualizar
                                     </button>
                     </form>
                 </div>
@@ -117,7 +116,7 @@ const Update = (props) => {
                                     <td>
                                         <button
                                             type="submit"
-                                            className="btn btn-success"
+                                            className="btn btn-send"
                                             onClick={() => userSelected(user)}>
                                             Editar
                                     </button>

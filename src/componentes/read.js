@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
 
 const Read = (props) => {
-    console.log(props)
-
     return (
         <Fragment>
             <table className="table table-striped">

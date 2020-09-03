@@ -22,7 +22,6 @@ function App() {
         const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
         setUsers(arrayData)
       } catch (error) {
-        console.log(error)
       }
     }
     obtenerDatos()
@@ -63,8 +62,8 @@ function App() {
       <section id="tabs" className="project-tab">
         <div className="container">
           <div className="row justify-content-center p-3">
-            <h1 className="text-primary">Gestión de usuarios con pestañas</h1>
-            <div className="col-md-9 p-5">
+            <h1 className="text">Gestión de usuarios con pestañas</h1>
+            <div className="col-md-9 p-5 frame-color">
               <Tabs></Tabs>
               <br />
               <div className="tab-content" id="nav-tabContent">

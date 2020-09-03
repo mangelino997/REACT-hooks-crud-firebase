@@ -19,7 +19,7 @@ const Delete = (props) => {
                             <td>
                                 <button
                                     type="submit"
-                                    className="btn btn-success"
+                                    className="btn btn-send"
                                     onClick={()=>props.deleteUser(user)}>
                                     Eliminar
                                     </button>
